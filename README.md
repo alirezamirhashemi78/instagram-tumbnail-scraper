@@ -4,7 +4,12 @@ A Python scraper to download thumbnail images from Instagram posts and reels usi
 The project automatically rotates proxies and user-agents every 10 requests to reduce the risk of being blocked by Instagram.
 
 ---
+## Important Notes
 
+- **No login required:** This scraper works without any Instagram login, as long as the URLs point to **public** Instagram posts or reels.  
+- **Private pages not supported yet:** Currently, the code does **not** support scraping content from private Instagram accounts or posts. Support for private pages may be added in future versions.
+
+---
 ## Features
 
 - Download thumbnails from Instagram posts and reels by URL
